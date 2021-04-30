@@ -1109,6 +1109,7 @@ footer {
     }
     .benefits.container ul li:nth-child(4) {
         margin-bottom: 50px;
+        padding-top: 0;
     }
     .about-us {
         display: flex;
