@@ -33,13 +33,14 @@ $(document).ready(function() {
       pauseOnFocus: true,
       pauseOnHoover: true
   });
+  $('.mobile__menu').on('click', function(e) {
+    e.preventDefault();
+    $('.burger__menu, .header-menu, .header__menu, .contacts, .header-menu__button') .toggleClass('burger__active');
+  });
+  $('.header-link').click(function(event) {
+    $('.burger__menu, .header-menu, .header__menu, .contacts, .header-menu__button').removeClass('burger__active');
+  });
+  
 });
 
-$('.mobile__menu').on('click', function(e) {
-  e.preventDefault();
-  $('.burger__menu, .header-menu, .header__menu, .contacts, .header-menu__button') .toggleClass('burger__active');
-});
-$('.header-link').click(function(event) {
-  $('.burger__menu, .header-menu, .header__menu, .contacts, .header-menu__button').removeClass('burger__active');
-});
 
