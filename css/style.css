@@ -138,6 +138,9 @@ h3 {
 .phones a:first-child {
     margin-right: 46px;
 }
+.phones a:hover {
+    color: #FF9900;
+}
 .social {
     display: flex;
 }
@@ -409,7 +412,7 @@ h3 {
 .stages__diagrams-item:nth-child(2) .circle::before {
     content: url(../img/Subtract\ \(1\).svg);
     right: -4px;
-    top: -4px;
+    top: -3px;
 }
 .stages__diagrams-item:nth-child(3) .circle::before {
     content: url(../img/Subtract\ \(2\).svg);
@@ -854,6 +857,9 @@ footer {
 }
 .footer__nav ul li {
     list-style-type: none;
+}
+.footer__nav li:hover a {
+    color: #FF9900;
 }
 .footer__contact {
     max-width: 160px;

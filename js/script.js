@@ -22,6 +22,7 @@ $(document).ready(function() {
       verticalSwiping: true
        });
     $('.portfolio__slider-bg').slick({
+      swipe: true,
       arrows: true,
       dots: true,
       slidesToShow: 1,
@@ -30,6 +31,8 @@ $(document).ready(function() {
       speed: 700,
       autoplay: true,
       autoplaySpeed: 10000,
+      fade: true,
+      cssEasy: 'linear',
       pauseOnFocus: true,
       pauseOnHoover: true
   });
